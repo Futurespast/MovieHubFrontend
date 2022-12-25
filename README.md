@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# MovieHubBackend
+This is the backend for a website called Moviehub that allows users to review movies and tv shows. This is a student project for Java Web Programing. <br>
+<p>To see the frontend of the project visit https://github.com/Futurespast/MovieHubFrontend </p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p> In order to run the website you'll need to have both the fronend and back and code. You'll need to run both in the IDE and you'll have to make sure the api is running on Port 8080.</p>
 
-## Available Scripts
+<p> I wasn't able to get the edit review to work so that's something that I would like to have implemented in the future. Another thing to improve upon is the visual look of the website. There's probably other quality of life improvements that could be implemented. </p>
 
-In the project directory, you can run:
+To find a detailed explanation of api and the backend please refer to the read me file of this repository: https://github.com/Futurespast/MovieHubBackend
 
-### `npm start`
+<h3> The Website </h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/104465572/209454838-c40877cd-7107-4ec3-a989-6ead304653b7.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is the landing page and shows all the movies in the database. At the top is a button that you can use to add a movie.
 
-### `npm test`
+![image](https://user-images.githubusercontent.com/104465572/209454848-90a2b026-513b-4a07-9264-fcd2d4fa380f.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This is the form that appears when you click on the add movie button. There's a button that used to go back to the list of movies.
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/104465572/209454855-c09ebddd-c628-485f-90c8-0ec229014bd6.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is the detailed view of a movie when you click on it. The buttons are pretty self explanitory.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/104465572/209454861-a39f0da9-ffae-4938-9593-573df0ead0f0.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This is the list of all the reviews of that movie. There's a add review button to add a review for that movie.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![image](https://user-images.githubusercontent.com/104465572/209454877-5bb32f39-03f8-43cc-86e7-870438e9c437.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is the detailed view of the review that you clicked. it gives you the option to edit and delete the review.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
